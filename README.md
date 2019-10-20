@@ -10,4 +10,5 @@ If you have a clay, you can install the "FOAM Nearby POI" service (this is mocke
 
 ## TODO
 
-- [ ] understand where the
+- [ ] find the API endpoint for staked unknown POIs and use that as the primary data source
+- [ ] write a reference client that uses background location on significant location change to request unknown POIs and then display a local notification, removing the need for APNS/GCM credentials.
