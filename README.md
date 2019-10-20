@@ -1,12 +1,12 @@
 # local-mobile-foam
 
-The goal: use a personal server ('clay') to keep track of my background location while going about the world. When I get close to a disputed POI or a POI that others have staked rewards on, I receive a local notification to check out the area and contribute to the FOAM map.
+The goal: use a personal server (your Clay) to keep track of your background location while going about the world. When you get close to a disputed POI or a POI that others have staked rewards on, you receive a local notification to check out the area and contribute to the FOAM map, winning some rewards in the process.
 
 ## Usage
 
 You can run the server side bits with `node index.js` or use the dockerfile built with `yarn build`.
 
-If you have a clay, you can install the "FOAM Nearby POI" service (this is mocked out for the hackathon).
+If you have a clay, you can install the "FOAM Staked POI" service (this is mocked out for the hackathon).
 
 ## TODO
 
@@ -17,8 +17,7 @@ If you have a clay, you can install the "FOAM Nearby POI" service (this is mocke
 Example Response
 
 ```json
-[
-  {
+{
     "cst": "0x0661a22088f60194c64aeb4ff6dccf0c870b277db95111e17135140a7bbaebdb",
     "createdAt": "2018-12-04T17:24:57Z",
     "radius": "0x3e8",
@@ -28,5 +27,4 @@ Example Response
     "geohash": "dr5rs8vrcqm5",
     "nftAddress": "0x36f16a0d35b866cdd0f3c3fa39e2ba8f48b099d2"
   }
-]
 ```
